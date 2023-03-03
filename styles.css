@@ -1,0 +1,654 @@
+.first-section{
+    background-image: url("images/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    z-index: 3;
+    top: 35px;
+    left: 35px;
+}
+.title{
+    border: 2px white;
+    border-style: solid;
+}
+.title p {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 38px;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 26px 24px 24px 24px;
+}
+.second-section{
+   margin-top: 96px;
+   display: flex;
+   flex-direction: column;
+}
+.second-section img{
+    justify-content: center;
+   
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.second-section-header{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 48px;
+}
+.text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    mix-blend-mode: normal;
+    text-transform: none;
+    opacity: 0.5;
+    margin: 16px 48px 96px 48px;
+}
+.third-section{
+    display: flex;
+    flex-direction: column; 
+}
+.third-section p{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+.images{
+    display: flex;
+}
+.earth-img{
+    background-image: url("images/mobile/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 327px;
+    height: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.night-img{
+    background-image: url("images/mobile/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 327px;
+    height: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.soccer-img{
+    background-image: url("images/mobile/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 327px;
+    height: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.grid-img{
+    background-image: url("images/mobile/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 327px;
+    height: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.above-img{
+    background-image: url("images/mobile/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 327px;
+    height: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.pocket-img{
+    background-image: url("images/mobile/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 327px;
+    height: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.curiosity-img{
+    background-image: url("images/mobile/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 327px;
+    height: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.fisheye-img{
+    background-image: url("images/mobile/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 327px;
+    height: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.mobailButton{
+    border-radius: 0px;
+    width: 157px;
+    height: 40px;
+    margin: 10px 109px 96px 109px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.images p{
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items:flex-end;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+.footer{
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-icon{
+    margin:56px 105px 32px 105px;
+    color: #fff;
+}
+.footer-bar p{
+    color:  white;  
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+.icons{
+    margin-top: 48px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+}
+.end{
+    margin-top:16px;
+    margin-bottom: 56px;
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+.menu-btn {
+    position: absolute;
+    z-index: 3;
+    right: 35px;
+    top: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.left-bar{
+    display: none;
+}
+.desktopButton{
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .menu-btn{
+        display: none;
+    }
+   .icon{
+    margin-top: 44px;
+    margin-left: 165px;
+   }
+   .first-section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/desktop/image-hero.jpg");
+   }
+  .left-bar{
+    display: flex;
+    margin-top: -460px;
+    margin-right: 132px;
+  }
+  .left-bar p{
+    margin-right: 33px;
+  }
+  .left-bar p{
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    padding-bottom: 5px;
+  }
+  .left-bar p:hover{
+    cursor: pointer;
+
+  }
+  .p1::before {
+    content: '';
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 20px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: white;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .3s;
+  }
+  .p1:hover::before {
+    transform-origin: center;
+    transform: scaleX(1);
+  }
+  .title{
+    margin-left: 185px;
+    width: 650px;
+    height: 278px;
+    margin-top: 150px;
+  }
+  .title p{
+    visibility: hidden;
+    position: relative;
+  }
+  .title p::after{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 70px;
+    text-transform: uppercase;
+    content: "Immersive experiences that deliver";
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+ .second-section{
+    margin-top: 160px;
+    position: relative;
+ }
+ .second-section img{
+    width: 731px;
+    height: 500px;
+    margin-left: 164px;
+
+ }
+ .second-section-text{
+    background-color: #fff;
+    position: absolute;
+    width: 541px;
+    height: 317px;
+    left: 734px;
+    top:183px
+ }
+ .second-section-header{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: 96px;
+    margin-left: 96px;
+    text-align: left;
+ }
+ .text{
+    text-align: left;
+    margin: 0;
+    margin-left: 96px;
+ }
+.third-section{
+    margin-top: 184px;
+    display: flex;
+    margin-left: 164px;
+}
+.third-section p{
+    text-align: left;
+    margin: 0px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+}
+.earth-img{
+    background-image: url("images/desktop/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 256px;
+    height: 450px;
+    margin-left: 0px;
+}
+.night-img{
+    background-image: url("images/desktop/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 256px;
+    height: 450px;
+    margin-left: 0px;
+}
+.soccer-img{
+    background-image: url("images/desktop/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 256px;
+    height: 450px;
+    margin-left: 0px;
+}
+.grid-img{
+    background-image: url("images/desktop/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 256px;
+    height: 450px;
+    margin-left: 0px;
+}
+.above-img{
+    background-image: url("images/desktop/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 256px;
+    height: 450px;
+    margin-left: 0px;
+}
+.pocket-img{
+    background-image: url("images/desktop/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 256px;
+    height: 450px;
+    margin-left: 0px;
+}
+.curiosity-img{
+    background-image: url("images/desktop/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 256px;
+    height: 450px;
+    margin-left: 0px;
+}
+.fisheye-img{
+    background-image: url("images/desktop/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 256px;
+    height: 450px;
+    margin-left: 0px;
+}
+.images-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.images p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    margin:224px auto 32px 40px;
+}
+.images{
+    cursor: pointer;
+}
+.images:hover{
+    opacity: 0.5;
+}
+.pAndButton{
+    display: flex;
+}
+.desktopButton{
+    display: inline;
+    border-radius: 0px;
+    margin-left: 540px;
+    width: 157px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    margin-top:184px;
+    
+}
+.icons svg{
+    margin: 0;
+    margin-right: 16px;
+}
+.icons{
+    align-self: flex-end;
+    margin-top: -85px;
+    margin-right: 165px;
+    cursor: pointer;
+    display: flex;
+    gap: 16px;
+}
+.end{
+    align-self: flex-end;
+    margin-right: 170px;
+    margin-top: 25px;
+}
+.footer-bar p{
+    margin: 0;
+    margin-right: 32px;
+    cursor: pointer;
+}
+.footer-bar{
+    display: flex;
+    flex-direction: row;
+    margin: 24px auto auto 165px;
+}
+.footer-icon{
+    margin: 44px auto auto 165px;
+}
+.footer svg{
+    margin-bottom: 6px;
+}
+.border1{
+    padding-bottom: 5px;
+    border: none;
+    width:24px;
+
+}
+.border1:hover{
+    border: 3px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.mobailButton{
+    display: none;
+}
+}
+
+
+
+
+
+/* Styling the hamburger lines */
+.menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: white;
+    transition: all 0.5s ease-out;
+}
+
+/* Adding transform to the X */
+.menu-btn.close {
+    transform: rotate(180deg);
+}
+
+/* Styling the three lines
+    to make it an X */
+.menu-btn.close .btn-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    background-color: #fff;
+}
+
+.menu-btn.close .btn-line:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-btn.close .btn-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+    background-color: #fff;
+}
+
+/* Styling the position of the menu icon */
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    background-color: #000000;
+    
+    height: 667px;
+}
+.menu-branding{
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+.menu.show {
+    visibility: visible;
+}
+/*4 items in the navigation menu */
+.nav-item:nth-child(1) {
+    margin-top: 200px;
+    margin-left: 24px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.nav-item:nth-child(2) {
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.nav-item:nth-child(3) {
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.nav-item:nth-child(4) {
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 25px;
+    color: #fff;
+}
+.nav-item:nth-child(5) {
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 25px;
+    color: #fff;
+}
